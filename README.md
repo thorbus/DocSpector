@@ -1,5 +1,3 @@
-# alemeno_assignment
-
 # Content Engine Chatbot
 
 The Content Engine Chatbot is an intelligent assistant built to interact with users and provide answers by querying relevant information from a set of documents. The chatbot is integrated into a Streamlit web interface, where users can type in questions, and the system responds by extracting information from a collection of pre-processed PDFs. This project combines document processing, natural language processing (NLP), and a user-friendly interface to create an efficient query-response system.
