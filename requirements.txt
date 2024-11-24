@@ -1,0 +1,13 @@
+numpy
+scikit-learn
+pandas
+streamlit
+langchain
+sentence-transformers
+chromadb
+transformers
+torch
+langchain-community
+python-dotenv
+pypd
+pytest
