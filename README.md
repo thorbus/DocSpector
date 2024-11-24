@@ -40,3 +40,30 @@ To run this project, you will need to add the following environment variables to
 
 `HUGGINGFACEHUB_API_TOKEN=Your_access_token`
 
+
+
+
+## Features
+
+
+
+    Document Processing:
+        Extracts text from PDF files using the PyPDF2 library.
+        Splits the content into smaller, manageable chunks for efficient processing.
+
+    Vector Store Integration:
+        Converts text chunks into vector embeddings using SentenceTransformers.
+        Stores embeddings in ChromaDB for quick similarity-based document retrieval.
+
+    Query Engine:
+        Uses a MultiQueryRetriever to fetch documents relevant to the user’s query.
+        Leverages a Hugging Face language model (e.g., GPT-2) for generating context-aware responses.
+
+    Streamlit Interface:
+        Provides a simple and user-friendly web interface for users to ask questions.
+        Displays a real-time conversation history between the user and the chatbot.
+
+    Error Handling:
+        Ensures the chatbot gracefully manages errors during retrieval or response generation.
+        Logs critical events for debugging and maintenance.
+
