@@ -10,13 +10,13 @@ The Content Engine Chatbot is an intelligent assistant built to interact with us
 Clone the project
 
 ```bash
-  git clone https://github.com/thorbus/alemeno_assignment.git
+  git clone https://github.com/thorbus/DocSpector.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd alemeno_assignment
+  cd DocSpector
 ```
 
 Install dependencies
